@@ -1,5 +1,10 @@
+body {
+    background-image: url("../img/wallpaper.jpg");
+    background-position: center 1010px;
+}
+
 header {
-    background-color: rgb(76, 100, 121);
+    background-color: rgba(0, 0, 0, 0.349);
     width: 90%;
     height: 100px;
     margin: 0 auto;
@@ -7,8 +12,21 @@ header {
     border-top-right-radius: 7px;
 }
 
+img {
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 6%;
+    height: 80px;
+}
+
+.soultone {
+    float: right;
+    margin-right: 10px;
+    width: auto;
+ }
+
 nav {
-    background-color: rgb(23, 43, 61);
+    background-color: rgba(23, 43, 61, 0.425);
     width: 90%;
     height: 45px;
     margin: 0 auto;
@@ -21,14 +39,25 @@ ul {
 }
 
 li {
-    margin-left: 5px;
+
     display: inline-block;
-    color: aliceblue
+    color: aliceblue;
 }
 
 article {
-    background-color: rgb(61, 96, 128);
-    width: 90%;
+    background-color: rgba(50, 74, 97, 0.521);
+    width: 60%;
     height: 400px;
-    margin: 0 auto;
+    position: relative;
+    display: inline-block;
+    margin-left: auto;
+    /*margin-right: auto;*/
+}
+
+aside {
+    background-color: rgba(117, 112, 36, 0.356);
+    width: 30%;
+    height: 400px;
+    position: relative;
+    display: inline-block;
 }
