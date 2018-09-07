@@ -1,9 +1,21 @@
+@font-face {
+    font-family: "DeathLeter";
+    src: url("../fonts/dirt2death.ttf");
+}
+  
+@font-face {
+    font-family: "alternative";
+    src: url("../fonts/1942.ttf");
+}
+
+
 body {
     background-image: url("../img/wallpaper.jpg");
     background-position: center 1010px;
 }
 
 header {
+    margin-top: 15px;
     background-color: rgba(0, 0, 0, 0.349);
     width: 90%;
     height: 100px;
@@ -12,18 +24,57 @@ header {
     border-top-right-radius: 7px;
 }
 
-img {
-    margin-top: 10px;
-    margin-left: 10px;
-    width: 6%;
+#tema {
+    width: 40%;
+    margin-left: 460px;
+    margin-top: 30px;
+    color: aliceblue;
+    font-family: DeathLeter;
+    font-size: 55px;
+    /*background-color: chartreuse;*/
+    display: inline-block;
+}
+
+    /* Estos son los logos de la izquierda*/
+#logos_left {
+    position: absolute;
+    /*background-color: blueviolet;*/
+    width: 12%;
+    margin-top: 6px;
+    margin-left: 6px; 
+    display: inline-block;
+}
+
+#logo_mapex {
+    width: 45%;
     height: 80px;
 }
 
-.soultone {
-    float: right;
-    margin-right: 10px;
-    width: auto;
- }
+#logo_sabian {
+    width: 43%;
+    height: 80px;
+}
+
+    /* Estos los los logos que van a la derecha*/
+#logos_right{
+    margin-top: 6px;
+    margin-left: 200px;
+    position: absolute;
+    /*background-color: blueviolet;*/
+    width: 12%;
+    display: inline-block;
+
+}
+
+#logo_vater {
+    width: 45%;
+    height: 60px;
+}
+ 
+#logo_soultone {
+    width: 45%;
+    height: 80px;
+}
 
 nav {
     background-color: rgba(23, 43, 61, 0.425);
@@ -32,6 +83,20 @@ nav {
     margin: 0 auto;
     position: relative;
     text-align: center;
+}
+
+#menu {
+    background-color: rgba(255, 255, 255, 0.425);
+    margin-left: 540px;
+    width: 40%;
+    font-family: alternative;
+}
+
+.opc{
+    margin-left: 5px;
+    margin-top: 13px;
+    font-family: alternative;
+    font-size: 16px;
 }
 
 ul {
@@ -43,21 +108,36 @@ li {
     display: inline-block;
     color: aliceblue;
 }
+#cuerpo{
+    width: 90%;
+    background: chartreuse;
+    margin: 0 auto;
+}
 
 article {
-    background-color: rgba(50, 74, 97, 0.521);
+    background-color: rgba(47, 66, 83, 0.521);
     width: 60%;
     height: 400px;
-    position: relative;
-    display: inline-block;
-    margin-left: auto;
-    /*margin-right: auto;*/
+  
+   
+    float: left;
+
 }
 
 aside {
     background-color: rgba(117, 112, 36, 0.356);
-    width: 30%;
+    width: 28%;
     height: 400px;
-    position: relative;
-    display: inline-block;
+    float: right;
+}
+
+footer {
+    background-color: rgba(255, 0, 0, 0.349);
+    width: 90%;
+    height: 100px;
+    margin: 0 auto;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    margin-bottom: 20px;
+    clear: left;
 }
